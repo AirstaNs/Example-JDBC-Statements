@@ -9,6 +9,7 @@ import java.sql.Statement;
 
 public class Westeros {
     public static void main(String[] args) {
+        // If the database does not exist, it will be created automatically.
         String url = "jdbc:sqlite:C:/sqlite/westeros.db";
 
         SQLiteDataSource dataSource = new SQLiteDataSource();
